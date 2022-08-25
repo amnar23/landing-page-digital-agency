@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="styles/style.css" rel="stylesheet" />
+    <!-- Glider CSS -->
+        <!-- Glider CSS -->
+        <link rel="stylesheet" href="styles/glider.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <script
+      src="https://kit.fontawesome.com/dfe4d0138e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Digital Agency</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <img src="images/elements.png" class="background-try" />
+      <img src="images/background-elements.png" class="hero-back" /> -->
+      <div class="top">
+        <!-- Header -->
+        <header>
+          <!-- Logo -->
+          <img src="images/Dalio.png" />
+          <!-- Navigation Bar -->
+          <nav>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Our Work</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Say Hi</a></li>
+            </ul>
+          </nav>
+          <button onclick="openMenu()" id="menu" style="background-color: transparent; border: none">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </header>
+        <!-- Header End -->
+        <!-- Hero Section -->
+        <div class="hero-section">
+          <img src="images/Vector1.png" class="hero-vector" />
+          <div class="heading">
+            <img src="images/world-class.png" class="heading-img" />
+            <h1>Digital Agency</h1>
+          </div>
+
+          <p class="hero-body">
+            Full-service design support that growing B2B companies need. World
+            leading agency.
+          </p>
+          <div class="side-comp">
+            <div class="side">
+              <img src="images/rectangle6.png" style="width:18.976vw; max-width:100%" />
+              <img src="images/side-image-back.png" class="side-back" />
+            </div>
+
+            <button class="btn">Our Projects &#8599;</button>
+            <div class="hero-img side">
+              <img src="images/group33.png" />
+              <img src="images/play-video.png" class="side-back" />
+            </div>
+          </div>
+          <!-- <div class="hero-img side">
+            <img src="images/group33.png" />
+            <img src="images/play-video.png" class="side-back" />
+          </div> -->
+        </div>
+      </div>
+      <div class="about-us frame">
+        <div class="about-text">
+          <h2>We Are A Creative</h2>
+          <h2>Digital Agency</h2>
+          <p>
+            Dalio started with a vision for building an agency to solve the
+            business problems of the future, and that requires a different
+            model.<span class="block-span single-br"></span>
+            We’re not a branding agency that dabbles in tech, and we’re not a
+            development shop that leaves you hanging when it’s time to go to
+            market.
+            <span class="block-span double-br"></span>
+            We start with human experience and layer in technology and marketing
+            to deliver truly integrated digital solutions.
+            <span class="block-span sinlge-br"></span>
+            This unique set of capabilities sets us apart from other agencies
+            and positions DIG to help you attack your goals.
+          </p>
+          <button class="btn">Contact Us &#8599;</button>
+        </div>
+        <div class="grid-imgs">
+          <img src="images/about-img1.png" />
+          <img src="images/about-img2.png" />
+          <img src="images/about-img3.png" />
+          <img src="images/Ornament14.png" />
+          <img src="images/about-img4.png" />
+        </div>
+      </div>
+      <!-- About Us End Here-->
+      <!-- Facts -->
+
+      <div class="facts">
+        <div>
+          <h3>4.8k</h3>
+          <p>Jobs Completed</p>
+        </div>
+        <div>
+          <h3>12+</h3>
+          <p>Industry Experience</p>
+        </div>
+        <div>
+          <h3>2.5k+</h3>
+          <p>World Wide Clients</p>
+        </div>
+        <div>
+          <h3>120+</h3>
+          <p>Won Awards</p>
+        </div>
+      </div>
+      <!-- Facts End -->
+      <!-- Our Solution -->
+      <div class="our-solution">
+        <div><img src="images/Rectangle4.png" /></div>
+        <div>
+          <h2>Our Solution Approach</h2>
+          <span class="block-span big-br"></span>
+          <ul class="big-br" style="list-style-image: url('images/lucide_check-circle1.png')">
+            <li>
+              <h4>Data Analysis with problem factor</h4>
+              <span class="block-span double-br"></span>
+              Delivering the spatial expertise of the largest, most
+              sophisticated performance marketing agencies, while providing
+              intimate, boutique-like support.
+            </li>
+            <span class="block-span big-br"></span>
+            <li>
+              <h4>Functionality solution for users</h4>
+              <span class="block-span double-br"></span>
+              Delivering the spatial expertise of the largest, most
+              sophisticated performance marketing agencies.
+            </li>
+            <span class="block-span big-br"></span>
+            <li>
+              <h4>Latest technology enabled</h4>
+              <span class="block-span double-br"></span>
+              Technology the spatial expertise of the largest, most
+              sophisticated performance marketing agencies, while providing
+              intimate, boutique-like support.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Our Solution End Here -->
+      <!-- Services  -->
+      <div class="services frame">
+        <div>
+          <h2>Services We Can Help You</h2>
+          <button class="btn read-more-btn" style="margin: 0">See All &#8599;</button>
+        </div>
+        <div id="glide-service">
+          <div id="service" class="grid-imgs">
+            <div>
+              <img src="images/serciveIcons1.png" />
+              <h4>Content Writing</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                eius est minima exercitationem, blanditiis cupiditate dolorum
+                debitis ratione quasi ut. Ducimus, consequatur! Labore dolor odit,
+                molestias dolore quidem atque cum!
+              </p>
+              <button class="btn read-more-btn" style="margin: auto 0">
+                Read More &#8599;
+              </button>
+            </div>
+            <div>
+              <img src="images/serciveIcons2.png" />
+              <h4>UX Research</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                eius est minima exercitationem, blanditiis cupiditate dolorum
+                debitis ratione quasi ut. Ducimus, consequatur! Labore dolor odit,
+                molestias dolore quidem atque cum!
+              </p>
+              <button class="btn read-more-btn" style="margin: auto 0">
+                Read More &#8599;
+              </button>
+            </div>
+            <div>
+              <img src="images/serciveIcons3.png" />
+              <h4>Branding</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                eius est minima exercitationem, blanditiis cupiditate dolorum
+                debitis ratione quasi ut. Ducimus, consequatur! Labore dolor odit,
+                molestias dolore quidem atque cum!
+              </p>
+              <button class="btn read-more-btn" style="margin: auto 0">
+                Read More &#8599;
+              </button>
+            </div>
+            <div>
+              <img src="images/serciveIcons4.png" />
+              <h4>Web Design</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                eius est minima exercitationem, blanditiis cupiditate dolorum
+                debitis ratione quasi ut. Ducimus, consequatur! Labore dolor odit,
+                molestias dolore quidem atque cum!
+              </p>
+              <button class="btn read-more-btn" style="margin: auto 0">
+                Read More &#8599;
+              </button>
+            </div>
+          </div>
+          <div role="tablist" class="dots"></div>
+        </div>
+        
+      </div>
+      <!-- Services End Here -->
+      <!-- Projects -->
+      <div class="frame projects">
+        <h2>Our Latest Projects</h2>
+        <ul>
+          <li><a>All</a></li>
+          <li><a>UI/UX</a></li>
+          <li><a>Web Design</a></li>
+          <li><a>Branding</a></li>
+          <li><a>Interacton</a></li>
+        </ul>
+        <div class="all-gliders-c glider-contain">
+          <div class="all-gliders project-flex glider" id="ui">
+            <div>
+              <img src="images/project1img.png" />
+              <h4>Talent.com - Logo, Full Redesign and Branding</h4>
+              <p>
+                Talent.com a new brand identity using their core values of
+                optimism, transparency and approachability as inspiration. As a
+                result, we were able to create the most streamlined
+              </p>
+            </div>
+            <div>
+              <img src="images/project2img2.png" />
+              <h4>Bonfire - Landing Page Design Webby Awards Nomination</h4>
+              <p>
+                Pretty excited to announce that we just got nominated at the Webby
+                Awards! easy to understand and to use should be essential for
+                every business owner who uses their website.
+              </p>
+            </div>
+          </div>
+          <div role="tablist" class="dots"></div>
+        </div>
+        <div style="text-align:center"> <button class="btn">Load More  &#8599</button></div> 
+      </div>
+      <!-- Projects End Here -->
+      <!-- Reviews -->
+      <div class="frame">
+        <h2>What Happy Clients Say</h2>
+        <div class="glider-contain">
+          <div class="glider">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div>
+                <img src="images/quote-a-right.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit laudantium iusto velit sit quo accusamus dolores. Rerum, voluptas! Unde ipsam amet corrupti eos cupiditate esse praesentium itaque sit officia reprehenderit!</p>
+                <div class="client">
+                  <div>
+                    <img src="images/client1.png">
+                    <div>
+                      <p>Brooklyn Simmons</p>
+                      <p>Pendron.Inc, CEO</p>
+                    </div>
+                  </div>
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div>
+                <img src="images/quote-a-right.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit laudantium iusto velit sit quo accusamus dolores. Rerum, voluptas! Unde ipsam amet corrupti eos cupiditate esse praesentium itaque sit officia reprehenderit!</p>
+                <div class="client">
+                  <div>
+                    <img src="images/client2.png">
+                    <div>
+                      <p>Jenny Willson</p>
+                      <p>Bettero.Inc, CEO</p>
+                    </div>
+                  </div>
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+
+          <button aria-label="Previous" class="glider-prev">&#129056;</button>
+          <button aria-label="Next" class="glider-next">&#129058;</button>
+          <div role="tablist" class="dots"></div>
+        </div>
+      </div>
+      <!-- Reviews End Here -->
+      <!-- Blogs -->
+      <div class="frame">
+        <h2>Blogs From Insights</h2>
+        <div>
+          <div class="project-flex blogs glider">
+            <div class="blog">
+              <img src="images/blog1.png" style="max-width: 100%;">
+              <div class="btn badge" >TECHNOLOGY</div>
+              <p>John Doe &#x2022 19 January 2022</p>  
+              <h3>A small business is only as good as its tools and it is totally true.</h3>
+              <button class="btn read-more-btn"> Read More &#8599;</button>
+            </div>
+            <div class="blog"> 
+              <img src="images/blog2.png" style="max-width: 100%;">
+              <div class="btn badge" >WEBINAR</div>
+              <p>John Doe &#x2022 19 January 2022</p>  
+              <h3>Colaboration with team members that will be grow to business.</h3>
+              <button class="btn read-more-btn"> Read More &#8599;</button>
+            </div>
+          </div>
+          <div role="tablist" class="dots"></div>
+        </div>
+      </div>
+      <!-- Blogs End Here -->
+      <!-- Footer -->
+      <footer>
+        <div>
+          <div class="placeholder">
+            <p>Sign Up to Receive Product Updates and More</p>
+            <span class=" block-span double-br"></span>
+            <div> 
+              <p>youremail@gmail.com</p>
+              <img src="images/Line.png" style="width:41.575vw">
+            </div>
+          </div>
+          <div class="contact-details">
+            <div>
+              <p><b>Office</b></p><span class="block-span double-br"></span>
+              <p>545, Street 11, Block F <span class="block-span single-br"></span>
+              California, U.S.A</p>
+            </div>
+            <div>
+              <p><b>Contact</b></p><span class="block-span double-br"></span>
+              <p>+92 302 300 3215</p>
+              <p>ouraddress@email.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+          <p>2022. All Rights Reserved</p>
+          <div class="terms">
+            <a><p>Terms & Conditions</p></a>
+            <a><p>Privacy</p></a>
+          </div>
+          <div>
+            <i class="fa-brands fa-twitter icon-margin"></i>
+            <i class="fa-brands fa-facebook icon-margin"></i>
+            <i class="fa-brands fa-dribbble icon-margin"></i>
+            <i class="fa-brands fa-github icon-margin"></i>
+          </div>
+        </div>
+      </footer>
+      <div id="ham" class="hamburger-menu">
+        <div class="menu-1">
+          <button class="btn">Start a New Project</button>
+          <button style="background-color:transparent; border: none;" onclick="closeMenu()"><i class="fa fa-times" style="color:#0a142f"></i></button>
+        </div>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">What we do</a>
+        <a href="#">Our Work</a>
+        <a href="#">Blogs</a>
+        <a href="#">Say Hi</a>
+      </div>
+    </div>
+    <!-- Glider JS  -->
+    <script src="scripts/glider.min.js"></script>
+    <script src="scripts/script.js"></script>
+   
+ 
+  </body>
+</html>
